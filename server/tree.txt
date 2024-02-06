@@ -1,0 +1,35 @@
+webcrawler/
+│
+├── client/          # React frontend
+│   ├── node_modules/
+│   ├── public/
+│           └── index.html
+│           └── favicon.ico
+│   ├── src/
+│           └── assets/
+│           └── components/
+│                  └── BCI/
+│                         └── Bci.jsx
+│                         └── bci.css
+│           └── index.jsx
+│           └── index.css
+│   ├── package.json
+│   └── ...
+│
+├── server/          # Flask backend
+│   ├── venv/
+│   ├── api/
+│           └── routes.py
+│   ├── bci_data/
+│   ├── pec_data/
+│   ├── cceup_data/
+│   ├── static/
+│           └──favicon.ico
+│   ├── app.py
+│   ├── config.py 
+│   ├── models.py 
+│   ├── .flaskenv
+│   ├── requirements.txt
+│   └── ...
+│
+└── db/             # MySQL Database
