@@ -1,12 +1,17 @@
-![image](https://github.com/ZiningJin/WebCrawler/assets/72548752/ca8a9d8b-923c-45c2-aa95-0f087716d5ce)# WebCrawler
+# WebCrawler
 ## Main Function: A Toolbox designed for project database leads automation 
 ## Project Databases:
-- ![BCI Centrial](https://app-leadmanager.bcicentral.com/main/dashboard)
-- ![PEC Industrial](https://www.industrialinfo.com/)
+- [BCI Centrial](https://app-leadmanager.bcicentral.com/main/dashboard)
+- [PEC Industrial](https://www.industrialinfo.com/)
 - [CCEUP](http://www.cceup.com/)
 
 ## Previous Manual Workflow
-- BCI: 
+- Step1: Set Criteria (industry category; company type; region; start date; end date, etc.)
+- Step2: manually copy and paste each project's information from the project database website (**LOW EFFICIENCY**)
+- Step3: transform into Salesforce Leads Module required format (**HEAVY EXCEL WORK**)
 
 ## New Workflow
+- Step1: No need for manual setups
+- Step2: No need for manual crawling work
+- Step3: No need for manual data transformation
 
