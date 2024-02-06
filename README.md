@@ -14,4 +14,6 @@
 - Step1: No need for manual setups
 - Step2: No need for manual crawling work
 - Step3: No need for manual data transformation
+  Check the workflows for each project database:
+  ![workflows](https://github.com/ZiningJin/WebCrawler/blob/main/workflows.png)
 
