@@ -1,0 +1,17 @@
+.img-logo {
+ height: 40px;
+ width: auto;
+}
+
+.nav-link {
+    color: var(--color-white);
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: var(--color-button);
+}
+
+.nav-link:active {
+    color: var(--color-light);
+}
