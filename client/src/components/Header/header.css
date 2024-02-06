@@ -1,0 +1,40 @@
+.header__container {
+    max-width: 800px; /* Maximum width of the carousel container */
+    margin: auto; /* Center the container */
+    position: relative;
+}
+
+.img-carousel {
+    width: 100%; /* Ensure the image width is responsive */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the area of the carousel item */
+    padding: 10%;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Slightly darken the caption background for readability */
+    padding: 1rem; /* Padding around the text */
+    border-radius: 0.5rem; /* Optional: rounded corners for the caption */
+}
+
+/* ===MEDIA QUERIES (MEDIUM DEVICES) === */
+@media (max-width: 1024x) {
+    .header__container {
+        max-width: 100%; /* Allow the carousel to use the full width on small devices */
+    }
+
+    .carousel-caption {
+        padding: 0.5rem; /* Smaller padding on small devices */
+    }
+
+    .img-carousel {
+        object-fit: contain; /* Adjust object-fit if necessary for smaller screens */
+    }
+}
+
+/* ===MEDIA QUERIES (SMALL DEVICES) === */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Optionally hide captions on very small devices for more image focus */
+    }
+}
