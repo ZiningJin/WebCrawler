@@ -18,7 +18,7 @@
   ![workflows](https://github.com/ZiningJin/WebCrawler/blob/main/workflows.png)
 
   ## Tech Stack
-  > Frontend: React.js (react-bootstrap), Axios
-  > Backend: Flask (selenium for browser state management)
-  > Database: MySQL (pymysql, SQLAlchemy)
-  > Test Tool: POSTMAN
+  > Frontend: React.js (react-bootstrap), Axios 
+  > Backend: Flask (selenium for browser state management) 
+  > Database: MySQL (pymysql, SQLAlchemy) 
+  > Test Tool: POSTMAN 
